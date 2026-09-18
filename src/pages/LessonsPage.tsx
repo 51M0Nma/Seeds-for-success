@@ -232,7 +232,7 @@ export const LessonsPage: React.FC<LessonsPageProps> = ({ onNavigate }) => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="relative rounded-xl overflow-hidden shadow-md">
               <img
-                src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=700&q=80"
+                src={copy.lessonsDifferenceImage1}
                 alt="Mother helping child with learning"
                 className="w-full h-64 object-cover"
                 referrerPolicy="no-referrer"
@@ -240,7 +240,7 @@ export const LessonsPage: React.FC<LessonsPageProps> = ({ onNavigate }) => {
             </div>
             <div className="relative rounded-xl overflow-hidden shadow-md">
               <img
-                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80"
+                src={copy.lessonsDifferenceImage2}
                 alt="Teacher helping student write"
                 className="w-full h-64 object-cover"
                 referrerPolicy="no-referrer"
@@ -248,7 +248,7 @@ export const LessonsPage: React.FC<LessonsPageProps> = ({ onNavigate }) => {
             </div>
             <div className="relative rounded-xl overflow-hidden shadow-md">
               <img
-                src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80"
+                src={copy.lessonsDifferenceImage3}
                 alt="Parent and child smiling at screen"
                 className="w-full h-64 object-cover"
                 referrerPolicy="no-referrer"

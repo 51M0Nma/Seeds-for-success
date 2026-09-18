@@ -164,7 +164,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1920&q=80"
+            src={copy.homeBannerImage}
             alt="Teacher and students classroom"
             className="w-full h-full object-cover object-center brightness-[0.35]"
             referrerPolicy="no-referrer"
@@ -253,7 +253,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       <section id="classroom-photos-strip" className="grid grid-cols-1 sm:grid-cols-3 w-full">
         <div className="relative h-64 sm:h-72 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80"
+            src={copy.homeClassroomPhoto1}
             alt="Students in classroom"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             referrerPolicy="no-referrer"
@@ -261,7 +261,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         </div>
         <div className="relative h-64 sm:h-72 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=700&q=80"
+            src={copy.homeClassroomPhoto2}
             alt="Teacher leading workshop discussion"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             referrerPolicy="no-referrer"
@@ -269,7 +269,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         </div>
         <div className="relative h-64 sm:h-72 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80"
+            src={copy.homeClassroomPhoto3}
             alt="Students engaged in worksheet study"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             referrerPolicy="no-referrer"

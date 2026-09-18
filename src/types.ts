@@ -67,6 +67,7 @@ export interface SiteCopy {
   homeHeroPretitle: string;
   homeHeroTitle: string;
   homeHeroSubtitle: string;
+  homeHeroImage: string;
   homeLessonsHeading: string;
   homeLessonsSubtitle: string;
   homeLessonsDescription: string;
@@ -74,12 +75,16 @@ export interface SiteCopy {
   homeReachDescription: string;
   homeBannerTitle: string;
   homeBannerSubtitle: string;
+  homeBannerImage: string;
   homeCallout1Title: string;
   homeCallout1Text: string;
   homeCallout2Title: string;
   homeCallout2Text: string;
   homeCallout3Title: string;
   homeCallout3Text: string;
+  homeClassroomPhoto1: string;
+  homeClassroomPhoto2: string;
+  homeClassroomPhoto3: string;
   homePartnerTitle: string;
   homePartnerSubtitle: string;
 
@@ -87,22 +92,29 @@ export interface SiteCopy {
   lessonsHeroPretitle: string;
   lessonsHeroTitle: string;
   lessonsHeroSubtitle: string;
+  lessonsHeroImage: string;
   lessonsGardenHeading: string;
   lessonsGardenText: string;
   lessonsCompoundingHeading: string;
   lessonsCompoundingText: string;
+  compoundingBgImage: string;
   lessonsWarrenBuffettQuote: string;
   lessonsWarrenBuffettAuthor: string;
   lessonsVideoTitle: string;
   lessonsVideoSubtitle: string;
+  videoPosterImage: string;
   lessonsDifferenceHeading: string;
   lessonsDifferenceSubtitle: string;
   lessonsDifferenceText1: string;
   lessonsDifferenceText2: string;
+  lessonsDifferenceImage1: string;
+  lessonsDifferenceImage2: string;
+  lessonsDifferenceImage3: string;
 
   // Millionaire Academy
   academyHeroTitle: string;
   academyHeroSubtitle: string;
+  academyHeroImage: string;
   academyReasonsHeading: string;
   academyReasonsSubtitle: string;
   academyReasonsText: string;
@@ -114,36 +126,43 @@ export interface SiteCopy {
   // Services
   servicesHeroTitle: string;
   servicesHeroSubtitle: string;
+  servicesHeroImage: string;
   servicesToolsHeading: string;
   servicesToolsSubtitle: string;
   servicesRow1Title: string;
   servicesRow1Text: string;
+  servicesRow1Image: string;
   servicesRow2Title: string;
   servicesRow2Text: string;
+  servicesRow2Image: string;
   servicesRow3Title: string;
   servicesRow3Text: string;
+  servicesRow3Image: string;
 
   // MoneyTalk
   moneyTalkHeroPretitle: string;
   moneyTalkHeroSubtitle: string;
+  moneyTalkHeroImage: string;
 
   // Donate
   donateHeroTitle: string;
   donateHeroSubtitle: string;
+  donateHeroImage: string;
   donateCardHeading: string;
   donateCardSubheading: string;
 
   // Contact
   contactHeroTitle: string;
   contactHeroSubtitle: string;
+  contactHeroImage: string;
 
-  // Hero Images
-  homeHeroImage: string;
-  lessonsHeroImage: string;
-  academyHeroImage: string;
-  servicesHeroImage: string;
-  moneyTalkHeroImage: string;
-  donateHeroImage: string;
-  compoundingBgImage: string;
-  videoPosterImage: string;
+  // About
+  aboutHeroPretitle: string;
+  aboutHeroTitle: string;
+  aboutHeroSubtitle: string;
+  aboutHeroImage: string;
+  aboutStoryHeading: string;
+  aboutStoryParagraph1: string;
+  aboutStoryParagraph2: string;
+  aboutStoryImage: string;
 }

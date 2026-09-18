@@ -68,7 +68,7 @@ export const OurServicesPage: React.FC<OurServicesPageProps> = ({ onNavigate }) 
             </div>
             <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-4/3">
               <img
-                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80"
+                src={copy.servicesRow1Image}
                 alt="In-School Workshop in Ontario classroom"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -80,7 +80,7 @@ export const OurServicesPage: React.FC<OurServicesPageProps> = ({ onNavigate }) 
           <div id="service-row-2" className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-4/3 md:order-1">
               <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+                src={copy.servicesRow2Image}
                 alt="In-Office Financial Seminar"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -120,7 +120,7 @@ export const OurServicesPage: React.FC<OurServicesPageProps> = ({ onNavigate }) 
             </div>
             <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-4/3">
               <img
-                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80"
+                src={copy.servicesRow3Image}
                 alt="One on one Financial Coaching session"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

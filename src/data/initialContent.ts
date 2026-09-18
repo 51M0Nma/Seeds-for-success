@@ -11,6 +11,7 @@ export const initialSiteCopy: SiteCopy = {
   homeHeroPretitle: 'Financial Education Made Simple',
   homeHeroTitle: 'Financial\nLiteracy\nFor All',
   homeHeroSubtitle: 'Seeds for Success is a non-profit organization that teaches students how to build wealth and funds their first investments.',
+  homeHeroImage: 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1920&q=80',
   homeLessonsHeading: 'Financial Lessons',
   homeLessonsSubtitle: 'The lessons we offer have a life-long impact.',
   homeLessonsDescription: 'At the heart of our lessons are terms, methods, and practical examples demonstrating how to achieve financial freedom and generational wealth. Our lessons are taught by licensed financial professionals, business owners, and licensed teachers. We currently accept students between the ages of 7 to 18.',
@@ -18,12 +19,16 @@ export const initialSiteCopy: SiteCopy = {
   homeReachDescription: 'Seeds for Success offers students across Ontario a chance to start building a strong financial foundation early and at no cost. We believe introducing financial concepts to students backed by investment supports the development of their economic future while enhancing their overall confidence and self-esteem.',
   homeBannerTitle: "Let's invest in the future together.",
   homeBannerSubtitle: 'Future Builders. Investors. Mentor. Supporter.',
+  homeBannerImage: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1920&q=80',
   homeCallout1Title: 'Free Online Lessons',
   homeCallout1Text: 'In an effort to make financial literacy accessible to all, we offer both free and affordable online lessons. Register and begin browsing our lessons today.',
   homeCallout2Title: 'In-School Workshops',
   homeCallout2Text: "Register your class for one of our interactive workshops where students learn financial concepts. Our workshops adhere to Ontario curriculum's specific and overall expectations.",
   homeCallout3Title: 'Summits',
   homeCallout3Text: 'Our seminars cover a wide range of topics including financial literacy and life skills. We believe introducing financial concepts early betters their economic future.',
+  homeClassroomPhoto1: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80',
+  homeClassroomPhoto2: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=700&q=80',
+  homeClassroomPhoto3: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80',
   homePartnerTitle: 'Become a Partner',
   homePartnerSubtitle: 'Help us invest in our students and strengthen our communities.',
 
@@ -31,22 +36,29 @@ export const initialSiteCopy: SiteCopy = {
   lessonsHeroPretitle: 'Enroll Today',
   lessonsHeroTitle: 'Online\nLessons',
   lessonsHeroSubtitle: 'Take advantage of free online lessons where we help students develop a wealth creation mindset. Lessons are hosted Every Saturday at 10AM.',
+  lessonsHeroImage: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1920&q=80',
   lessonsGardenHeading: 'The Garden',
   lessonsGardenText: 'The garden is where you will find all of our financial literacy resources. Browse our library of lessons, worksheets and financial articles. Please return frequently as we plant new resources each week. The Garden was designed to provide a wide range of financial resources typically not available to students. The garden is our repository for financial learning. Whether you want to enrol in a course or enrol in individual financial lessons. We have something for every student.',
   lessonsCompoundingHeading: 'The Power of Compounding',
   lessonsCompoundingText: "The earlier you can plant a financial seed the longer it has to grow. Let's not only compound our children's investments, let's compound their knowledge.",
+  compoundingBgImage: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1920&q=80',
   lessonsWarrenBuffettQuote: '"Someone is sitting in the shade today because someone planted a tree a long time ago"',
   lessonsWarrenBuffettAuthor: '- Warren Buffett',
   lessonsVideoTitle: 'Securing their future early',
   lessonsVideoSubtitle: 'Hear what our students are learning from our lessons.',
+  videoPosterImage: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1600&q=80',
   lessonsDifferenceHeading: 'We want to Make a Difference',
   lessonsDifferenceSubtitle: 'Helping to build a strong community',
   lessonsDifferenceText1: 'Our company was founded on the belief that each one must teach one. Seeds for Success donates one course for every course purchased by one of our supporters.',
   lessonsDifferenceText2: 'Our goal is to improve the lives of students everywhere. Each student should have an equal opportunity to health, wealth and financial literacy. We have dedicated our efforts to this worthy goal. Help us empower the next generation two students at a time.',
+  lessonsDifferenceImage1: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=700&q=80',
+  lessonsDifferenceImage2: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80',
+  lessonsDifferenceImage3: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80',
 
   // Millionaire Academy
   academyHeroTitle: 'The Millionaire Academy Course',
   academyHeroSubtitle: 'The Seeds millionaire Academy Course is our flagship course that contains over 100 hours of Financial literacy content. This revolutionary course consists of video, multiple choice, worksheets and real life scenarios that will help students grasp the concept of money.',
+  academyHeroImage: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1920&q=80',
   academyReasonsHeading: 'Reasons to Join The Millionaire Academy',
   academyReasonsSubtitle: 'State of the art financial learning',
   academyReasonsText: "The Millionaire Academy Course covers all of the major financial topics needed for success in today's economy. This course has been designed to give students an in depth analysis of how to manage one's finances to create long term wealth. Some of the topics covered in this course are:",
@@ -58,38 +70,45 @@ export const initialSiteCopy: SiteCopy = {
   // Services
   servicesHeroTitle: 'Our Services',
   servicesHeroSubtitle: 'Whether you are just getting started on your financial journey or a financially expert, we have developed services to help you understand the principles of wealth creation.',
+  servicesHeroImage: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1920&q=80',
   servicesToolsHeading: 'Educational Tools Built For All',
   servicesToolsSubtitle: 'Financial literacy is imperative for wealth creation and the avoidance of debt. Only one third of adults consider themselves financially literate. Our services provide financial literacy for both children and adults',
   servicesRow1Title: 'In-School Workshops',
   servicesRow1Text: "Financial literacy will now play a larger part in the Ontario education Curriculum. Register your class for one of our interactive workshops where students learn financial concepts surrounding the Ontario curriculum's specific and overall expectations.",
+  servicesRow1Image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80',
   servicesRow2Title: 'In-Office Seminars',
   servicesRow2Text: 'Book one of our licensed financial advisors to help your staff grow, manage and protect their Investments. Our seminars cover topics such as retirement planning, estate planning, portfolio creation and life insurance.',
+  servicesRow2Image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
   servicesRow3Title: 'Financial Coaching',
   servicesRow3Text: 'Sit down with one of our licensed financial advisors to create a comprehensive financial plan based on your personal financial goals.',
+  servicesRow3Image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80',
 
   // MoneyTalk
   moneyTalkHeroPretitle: 'Financial Blog',
   moneyTalkHeroSubtitle: 'Interested in increasing your financial IQ? Read our Money Talk articles to learn everything money.',
+  moneyTalkHeroImage: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1920&q=80',
 
   // Donate
   donateHeroTitle: 'Help us reach 20,000 students.',
   donateHeroSubtitle: 'Creating opportunities in the community.',
+  donateHeroImage: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1920&q=80',
   donateCardHeading: 'Your contributions help us provide financial literacy lessons for our students.',
   donateCardSubheading: 'Thank you for your contribution.',
 
   // Contact
   contactHeroTitle: "Let's stay in contact!",
   contactHeroSubtitle: 'Please feel free to contact us with any questions or feedback you may have.',
+  contactHeroImage: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1920&q=80',
 
-  // Hero images & visual assets
-  homeHeroImage: 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1920&q=80',
-  lessonsHeroImage: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1920&q=80',
-  academyHeroImage: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1920&q=80',
-  servicesHeroImage: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1920&q=80',
-  moneyTalkHeroImage: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1920&q=80',
-  donateHeroImage: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1920&q=80',
-  compoundingBgImage: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1920&q=80',
-  videoPosterImage: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1600&q=80'
+  // About
+  aboutHeroPretitle: 'Our Mission & Impact',
+  aboutHeroTitle: 'Empowering Youth with Financial Freedom',
+  aboutHeroSubtitle: 'Seeds for Success is an Ontario non-profit dedicated to bridging the economic gap by introducing life-changing financial education early.',
+  aboutHeroImage: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1920&q=80',
+  aboutStoryHeading: 'Planting Financial Seeds Early',
+  aboutStoryParagraph1: 'Our organization was founded on the fundamental principle that each one must teach one. Too often, financial literacy is omitted from early education curricula, leaving young adults to navigate mortgages, credit scores, taxes, and investment decisions with little to no preparation.',
+  aboutStoryParagraph2: 'By backing our classroom lessons and workshops with seed investments, Seeds for Success transforms abstract financial theory into tangible reality. When a child sees their own compound interest working in real-time, their vision of their own economic potential forever changes.',
+  aboutStoryImage: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80'
 };
 
 export const initialCurriculumModules: CurriculumModule[] = [

@@ -69,6 +69,16 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
                 </svg>
               </a>
             </div>
+
+            {/* Visual Team/Support Photo */}
+            <div className="relative rounded-2xl overflow-hidden shadow-sm border border-neutral-200 aspect-16/10 mt-6">
+              <img
+                src={copy.contactHeroImage}
+                alt="Seeds for Success team and workshop"
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
+            </div>
           </div>
 
           {/* Right Column: Contact Form */}

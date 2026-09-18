@@ -16,7 +16,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
       <section className="relative min-h-[70vh] flex items-center text-white bg-neutral-900 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1920&q=80"
+            src={copy.aboutHeroImage}
             alt="About Seeds for Success"
             className="w-full h-full object-cover brightness-[0.35]"
             referrerPolicy="no-referrer"
@@ -26,29 +26,41 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center flex flex-col items-center">
           <span className="text-xs uppercase tracking-[0.25em] text-emerald-400 font-semibold mb-4">
-            Our Mission & Impact
+            {copy.aboutHeroPretitle}
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-[#23a976] mb-6 drop-shadow-md">
-            Empowering Youth with Financial Freedom
+            {copy.aboutHeroTitle}
           </h1>
           <p className="max-w-2xl text-base sm:text-lg text-neutral-200 font-light leading-relaxed">
-            Seeds for Success is an Ontario non-profit dedicated to bridging the economic gap by introducing life-changing financial education early.
+            {copy.aboutHeroSubtitle}
           </p>
         </div>
       </section>
 
       {/* Story & Philosophy */}
-      <section className="py-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="prose prose-lg text-neutral-700 space-y-6">
-          <h2 className="font-serif text-3xl sm:text-4xl text-[#23a976] mb-6">
-            Planting Financial Seeds Early
-          </h2>
-          <p className="text-base sm:text-lg leading-relaxed">
-            Our organization was founded on the fundamental principle that each one must teach one. Too often, financial literacy is omitted from early education curricula, leaving young adults to navigate mortgages, credit scores, taxes, and investment decisions with little to no preparation.
-          </p>
-          <p className="text-base sm:text-lg leading-relaxed">
-            By backing our classroom lessons and workshops with seed investments, Seeds for Success transforms abstract financial theory into tangible reality. When a child sees their own compound interest working in real-time, their vision of their own economic potential forever changes.
-          </p>
+      <section className="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div className="lg:col-span-7 space-y-6">
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#23a976]">
+              {copy.aboutStoryHeading}
+            </h2>
+            <p className="text-base sm:text-lg leading-relaxed text-neutral-700">
+              {copy.aboutStoryParagraph1}
+            </p>
+            <p className="text-base sm:text-lg leading-relaxed text-neutral-700">
+              {copy.aboutStoryParagraph2}
+            </p>
+          </div>
+          <div className="lg:col-span-5">
+            <div className="relative rounded-2xl overflow-hidden shadow-xl border border-neutral-200 aspect-4/3 lg:aspect-square">
+              <img
+                src={copy.aboutStoryImage}
+                alt="Seeds for Success in action"
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">

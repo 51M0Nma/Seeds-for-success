@@ -1,0 +1,87 @@
+// Prisma schema file for Seeds for Success
+// Using SQLite for zero-configuration, production-ready local file storage
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model AdminUser {
+  id        String   @id @default(cuid())
+  username  String   @unique
+  password  String   // Hashed password
+  name      String?
+  role      String   @default("ADMIN")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model PageContent {
+  id          String   @id @default(cuid())
+  pageKey     String   // "home" | "lessons" | "academy" | "services" | "moneytalk" | "donate" | "contact" | "global"
+  sectionKey  String   // e.g. "hero", "garden", "compounding", "reach", etc.
+  fieldKey    String   // e.g. "title", "subtitle", "bodyText", "image"
+  value       String   // HTML or plain text or image URL
+  updatedAt   DateTime @updatedAt
+
+  @@unique([pageKey, sectionKey, fieldKey])
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  dateBadge   String   // e.g. "6 Dec", "2 Mar"
+  author      String   @default("Peter Simons")
+  excerpt     String
+  content     String
+  image       String
+  category    String?
+  published   Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model CurriculumModule {
+  id          String   @id @default(cuid())
+  moduleKey   String   @unique
+  title       String
+  description String
+  iconName    String
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Donation {
+  id          String   @id @default(cuid())
+  amount      Float
+  donorName   String?
+  email       String?
+  status      String   @default("COMPLETED")
+  currency    String   @default("CAD")
+  createdAt   DateTime @default(now())
+}
+
+model ContactSubmission {
+  id          String   @id @default(cuid())
+  fullName    String
+  email       String
+  phone       String?
+  message     String
+  status      String   @default("NEW")
+  createdAt   DateTime @default(now())
+}
+
+model MediaUpload {
+  id          String   @id @default(cuid())
+  filename    String
+  filePath    String
+  mimeType    String
+  size        Int
+  createdAt   DateTime @default(now())
+}

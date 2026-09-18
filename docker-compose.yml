@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  seeds-for-success:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: seeds_for_success_app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATABASE_URL=file:./prisma/dev.db
+      - NEXTAUTH_SECRET=seeds_for_success_super_secret_jwt_key_2026
+      - NEXTAUTH_URL=http://localhost:3000
+    volumes:
+      # Persist SQLite database and file uploads
+      - seeds_data:/app/prisma
+      - seeds_uploads:/app/public/uploads
+
+volumes:
+  seeds_data:
+  seeds_uploads:

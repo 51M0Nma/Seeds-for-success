@@ -1,0 +1,6 @@
+{
+  "name": "Seeds for Success - Financial Literacy Academy",
+  "description": "Non-profit financial literacy platform replicating seedsforsuccess.academy with lessons, curriculum, donation engine, MoneyTalk blog, and admin CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
